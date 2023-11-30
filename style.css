@@ -1,0 +1,372 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+     
+
+
+
+    @media screen and (max-width: 600px) {
+        .presentacion { 
+        flex-direction:column;
+        }
+      
+      }
+
+
+      
+    
+    body{
+    
+    height: 100%;
+    font-size: 1em;
+   
+    font-family: Round;
+   
+    text-transform: capitalize;
+        
+    overflow-x: hidden;
+     }
+    
+     h1{
+    
+      margin-top: 0;
+      margin-bottom: 5px; 
+     color: #c40080;
+      font-size: 60px;
+      font-weight: 900;
+    }
+    
+    
+    
+    
+    a{
+
+        color: #141414;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+
+    i{
+    
+     color: cornflowerblue;   
+
+    }
+
+
+     h2{
+    
+    
+    
+       margin-bottom: 0.375em;
+       line-height: 1.2;
+       font-size: 45px;
+       font-weight: 900;
+    }
+    
+    
+    
+    
+    /* estilos de menu de navegacion */
+     .navbar{
+      background-image: linear-gradient(to bottom, #ff5487, #f14485, #e33283, #d41f82, #c40080);
+      width: 100%;
+      
+      font-weight: 700;
+      font-size: 15px;
+      margin: 0px;
+      padding: 20px;
+    }
+    
+    li {
+      margin-right: 30px;
+    }
+     
+     
+     
+     
+     .menu{
+    
+      display: flex;
+      align-items: center;
+      list-style-type: none;
+    
+     justify-content: end;
+
+    
+    
+     }
+    
+
+    
+      .menu .contacto{
+    
+        padding: 10px 20px;
+        background-color: rgb(112, 97, 248);
+        border: none;
+        border-radius: 10px;
+         margin-top: 15px;
+         cursor: pointer;
+        color: #0a0a0a;
+        
+            }
+    
+    
+    
+    
+    /* fin de estilos del menu de navegacion */
+     /* ------------------------------------------------ */
+    
+     /* estilos seccion precentacion */
+    
+     #seccion-presentacion{
+      height: auto;
+      display: flex;
+    
+      justify-content: center;
+    
+    
+     }
+    
+    .presentacion{
+    
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+    
+    }
+    
+     .img-precentacion{
+      width: 100%;
+      display: flex;
+    }
+    /* fin de estilos de seccion precentacion */
+    
+    /* ---------------------------------------------------- */
+    
+    /* -------------estilos de seccion conocimientos */
+    
+    #seccion-conocimientos{
+    
+    width: 100%;
+    
+    }
+    
+    
+    .informacion{
+    
+    
+      height: auto;
+    
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding-bottom: 50px;
+      padding-top: 50px;
+    }
+    
+    
+    /* fin estilos conocimientos */
+    
+    /* ----------------------------------------------------- */
+    
+    #seccion-bloque{
+    
+     
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        color: white;
+        /*estilo fondo de la seccion bloque*/
+        background-image: linear-gradient(to bottom, #ff5487, #f14485, #e33283, #d41f82, #c40080);
+    }
+    
+     #seccion-bloque p {
+    
+        font-family: 'Satisfy', cursive;
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    
+    
+    /* ------------------fin de seccion bloque---------------- */
+    /* -------------------------------------------------------------------- */
+    
+    /* inicio seccion proyectos */
+    
+    #seccion-proyectos{
+    
+    width: 100%;
+    height: auto;
+    
+    }
+    
+    .mis-proyectos{
+    
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-bottom: 50px;
+      padding-top: 50px;
+    
+    
+    }
+    
+    
+    
+    #seccion-redes{
+    
+      width: 100%;
+      height: auto;
+    
+    }
+    
+    .redes{
+    
+      font-size: 30px;
+      display: flex;
+      text-align: center;
+      border-radius: 15px;
+      justify-content: center;
+      align-items: flex-start
+    
+    
+    }
+    
+    .lista-redes{
+       
+     
+    max-width: 500px; 
+    flex-direction: row;
+      justify-content: center;
+     text-align: center;
+    
+    }
+    
+    .iconos-redes{
+    
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        
+    }
+    
+
+    
+    
+    i{
+    
+      /* display: block; */
+     
+     border-radius: 50%;
+     padding: 5px 10px;
+     border-radius: 10px;  
+    }
+    
+    
+    .escribeme{
+    
+      display: flex;
+   flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1,4rem;
+    
+    
+    }
+    
+    textarea{
+      border-radius: 20px;
+      background-color: #dbe1f8;
+      padding: 10px 15px;
+      display: block;
+      width: 100%;
+      outline: none;
+      transition: 0.2s;
+    
+    }
+    
+    /* ------------fin seccion contacto-------------------- */
+    
+    /* inicio footer */
+    
+    
+    footer{
+    
+      width: 100%;
+      background-image: linear-gradient(to bottom, #ff5487, #f14485, #e33283, #d41f82, #c40080);
+     
+    }
+    
+    /* .menu-footer{
+    
+      display: flex;
+      align-items: center;
+      list-style-type: none;
+    
+      justify-content: space-around; 
+    
+    } */
+    
+    .barra-footer{
+      list-style: none;
+      display: flex;
+      text-decoration: none;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+     
+    
+        list-style: none;
+              
+             
+    }
+
+    
+
+.box-footer{
+
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  
+
+}
+
+
+    .tex-footer{
+     display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    
+    /* .icono-footer:hover{
+      color: #fff;
+      background: 200%;
+      transform:   scale(1.1);
+      background-color: rgb(22, 7, 153);
+      
+    
+    } */
+    
+    
+    
+     
+    

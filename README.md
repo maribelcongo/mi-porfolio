@@ -18,7 +18,7 @@ a demas cunta con una seccion con una frase y el pie de pagina
 # seccion frase
 ![frase](https://github.com/maribelcongo/mi-porfolio/assets/123903736/5ce7264a-f940-4de6-b768-157fe8204d09)
 
-#seccion proyectos
+# seccion proyectos
 ![proyectos](https://github.com/maribelcongo/mi-porfolio/assets/123903736/5d47c465-e568-45b1-b422-433334ce1df7)
 
 # por ultimo pero no menos importante el pie de pagina

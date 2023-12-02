@@ -185,8 +185,8 @@
       padding: 10px 20px;
       background-color: rgb(112, 97, 248);
       border: none;
-      border-radius: 10px;
-       margin-top: 15px;
+      /* border-radius: 10px; */
+       margin-top: 30px;
        cursor: pointer;
       color: #0a0a0a;
       text-transform: capitalize;
@@ -246,7 +246,6 @@
 
     color: #2e2e31;
     max-width: 900px;
-    background-color:#e2d9dc ;
     border : 1px solid ;
     border-radius: 8px;
     padding: 30px;
@@ -298,7 +297,7 @@
     #seccion-proyectos{
     
     width: 100%;
-    height: auto;
+   
     
     }
     .proyectos{
@@ -321,26 +320,24 @@
       justify-content: center;
       margin: 40px; 
       flex-wrap: wrap;
-     
+       gap:2em
   
   }
 
   .items{
 
     color: #2e2e31;
-    max-width: 900px;
-    background-color:#e2d9dc ;
     border : 1px solid ;
     border-radius: 8px;
     padding: 30px;
     transition: 0.2s; 
-    margin: 20px;
+  
   }
 
    .proyecto-img {
 
   width: 250px;
-  height: auto;
+ 
 
 
     }
@@ -361,10 +358,8 @@
     @media screen and (max-width: 600px) {
       .contenedor-redes { 
       flex-direction:column;
-     margin-bottom: 25px;
-     justify-content: center;
-     align-items: center;
    
+     
       }
     
     }
@@ -379,12 +374,11 @@
   }
       
   .lista-redes{
-       
-    
     max-width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
   
     }
     

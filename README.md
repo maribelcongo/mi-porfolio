@@ -5,7 +5,7 @@ No es un simple proyecto, es el comienzo de un gran conocimiento que voy a ir ad
 Si quieres ver como quedó puedes dar click 👉🏻[enlace](https://maribelcongo.github.io/mi-porfolio/)
 
 este proyecto se divide en 4 secciones principales las cuales te muestro a continuacion
-a demas cunta con una seccion con una frase y el pie de pagina 
+a demas cuenta con una seccion con una frase y el pie de pagina 
 
 # seccion presentacion
 

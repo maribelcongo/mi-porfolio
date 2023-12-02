@@ -15,7 +15,7 @@ a demas cunta con una seccion con una frase y el pie de pagina
 # seccion conocimientos
 ![conocimientos](https://github.com/maribelcongo/mi-porfolio/assets/123903736/9fb1092c-42d6-4b35-a7f7-3563f5298596)
 
-# seccion frase
+# frase
 ![frase](https://github.com/maribelcongo/mi-porfolio/assets/123903736/5ce7264a-f940-4de6-b768-157fe8204d09)
 
 # seccion proyectos

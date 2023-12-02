@@ -16,8 +16,8 @@
 
     
 
-      <!-- barra de navegacion -->
-        
+ <header>    
+   <!-- barra de navegacion -->      
 <nav class="navbar">
        
     <div class="box-barra">
@@ -27,12 +27,12 @@
         <li > <a href="#seccion-presentacion">HOLA</a>  </li>
         <li><a href="#seccion-conocimientos">CONOCIMIENTOS</a> </li>
         <li><a href="#seccion-proyectos">PROYECTOS</a></li>
-        <li><a href="#seccion-redes">CONTACTO</a></li>
+        <li><a href="#seccion-redes" class="boton-contacto">CONTACTO</a></li>
         
         
      </ul>
-</nav>
-       
+  </nav>
+</header>       
 
 
 
@@ -42,23 +42,25 @@
 
 <!-- inicio seccion presentacion -->
 
-<section id="seccion-presentacion">
+<section id="seccion-presentacion" class="hola">
 
+ 
   <div class="presentacion">
 
-  <div class="info-precentcion">
-
-     <p class="saludo">¡hola! soy</p>
+    <p class="saludo">¡hola! soy</p>
 
      <h1 >maribel congo</h1>
 
      <p class="descripcion">desarrolladora,guitarrista fan de las matematicas</p>
 
+     <a href="#proyectos">
+      <button> lo que hago </button>
+     </a>
 </div>
 
      <img src="imagenes/undraw_software_engineer_re_tnjc (1).svg" alt="imagen ilustrativa" class="img-presentacion">
 
-</div>
+   
 
 </section>
 <!-- final de seccion precentacion -->
@@ -147,11 +149,9 @@
         
        <div class="comillas"> <i class="fa-solid fa-quote-left"></i>  </div>
         
-       <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
-            Eligendi quaerat aspernatur laboriosam doloremque iste perspiciatis veniam culpa beatae magni quo <br>
-             laudantium exercitationem sit minima aut totam praesentium aliquam. </p> 
+       <p> la educacion es el arma mas poderosa que puedes usar para cambiar el mundo</p> 
         
-        <h2 class="autor">Someone </h2>
+        <h2 class="autor">nelson mandela </h2>
         
     </div>
     
@@ -162,9 +162,9 @@
 <!-- inicio seccion proyectos -->
 
 
-<section id="seccion-proyectos">
+<section id="seccion-proyectos" class="proyectos">
 
-      <div class="mis-proyectos">     
+      <div class="caja-proyectos">     
         
       <h2>Mis proyectos </h2>
         
@@ -176,51 +176,60 @@
 
 
        <div class="cuadricula-proyectos">
+
+        <a href="#" class="items">
+          <img src="iconos/undraw_software_engineer_re_tnjc.svg" alt="imagen ilustrativa" class="proyecto-img">
+          <p class="nombre-cuadricula"> portafolio</p>
+          </a>
+  
+          
+          
+     
+          
+         <a href="#" class="items">
+          <img src="iconos/undraw_video_game_night_8h8m.svg" alt="" class="proyecto-img">
+          <p class="nombre-cuadricula">mach3</p>
+          </a>
+          
+          
+          
+  
+         <a href="#" class="items">
+          <img src="iconos/undraw_social_dashboard_re_ocbd (1).svg" alt=""class="proyecto-img" >
+          <p class="nombre-cuadricula">generador de memes </p>
+          </a>
     
-       <a href="#" class="items">
-       <div>   <img src="imagenes/undraw_software_engineer_re_tnjc (1).svg" alt="imagen ilustrativa"></div>
-       <p class="nombre-grilla"> portafolio</p>
-       </a>
+          
+         <a href="#" class="items">
+          <img src="iconos/undraw_social_girl_re_kdrx.svg" alt="" class="proyecto-img">
+          <p class="nombre-cuadricula">todo app</p>
+          </a>
+      
+          
+           <a href="#" class="items">
+          <img src="iconos/undraw_online_calendar_re_wk3t.svg" alt="" class="proyecto-img" >
+          <p class="nombre-cuadricula">administrador de reuniones</p>
+          </a>
+       
+          <a href="#" class="items">
+            <img src="imagenes/undraw_calculator_re_alsc.svg" alt="" class="proyecto-img" >
+            <p class="nombre-cuadricula">contolador de gastos</p>
+            </a>
+       
+
+            <a href="#" class="items">
+              <img src="imagenes/undraw_calculator_re_alsc.svg" alt="" class="proyecto-img" >
+              <p class="nombre-cuadricula">contolador de gastos</p>
+              </a>
             
-       <a href="#" class="items">
-        <img src="imagenes/undraw_calculator_re_alsc.svg" alt="">
-        <p class="nombre-grilla">controlador de gastos</p>
-        </a>
-        
-        
-        <a href="#" class="items">
-        <img src="imagenes/undraw_gaming_re_cma2 (1).svg" alt="">
-        <p class="nombre-grilla">mach3</p>
-        </a>
-        
-        
-        <a href="#" class="items">
-        <img src="imagenes/undraw_movie_night_re_9umk.svg" alt="">
-        <p class="nombre-grilla">buscador de peliculas</p>
-        </a>
-        
-        
-        <a href="#" class="items">
-        <img src="imagenes/undraw_mobile_interface_re_1vv9.svg" alt="">
-        <p class="nombre-grilla">generador de memes </p>
-        </a>
-        
-        
-        <a href="#" class="items">
-        <img src="imagenes/undraw_social_girl_re_kdrx.svg" alt="">
-        <p class="nombre-grilla">todo app</p>
-        </a>
-        
-        
-        <a href="#" class="items">
-        <img src="imagenes/undraw_calendar_re_ki49.svg" alt="">
-        <p class="nombre-grilla">administrador de reuniones</p>
-        </a>
-        
-       </div>
+
+          </div>
+          </div>
+          </section>
+
+      
        <!-------------------------- fin de cuadricula proyectos ------------------->
-     </div>
-  </section>            
+               
             
       <!---------------------------- final de seccion proyectos --------------------->
              <!-- -------------------------------------------------------------------------------------------- -->
@@ -229,30 +238,32 @@
 
   <section id="seccion-redes">
 
-    <div class="redes">
+    <div class="contenedor-redes">
 <!-- ----------------------contactame------------------------------------------------------------- -->
    
 <div  class="lista-redes">
- <h2> contactame</h2>
+ 
+  <h2> contactame</h2>
     
-    <p class="tex-contactame"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
-    Repudiandae earum quo vel provident. Sequi accusantium sint, <br>
-    temporibus deleniti exercitationem eum itaque provident soluta ad maxime </p> 
-      
+    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt debitis 
+    ipsum dolor sit amet consectetur adipisicing elit. Sunt debitis </p>
+    
+    
     <div class="iconos-redes">
                  
-                 
-    <ul class="links">
-                                          
-                           
-     
-      <li class="redes"> <a href="mailto:marigrau27@gmail.com" ><i class="fa-solid fa-envelope"></i>marigrau27@gmail.com</a></li>
-      <li class="redes"> <a href="https://www.linkedin.com/in/maribel-congo-379727268 "><i class="fa-brands fa-linkedin"> </i>maribelcongo</a> </li>
-      <li class="redes"><a href="https://github.com/maribelcongo "><i class="fa-brands fa-github"></i>  Maribelcongo</a></li>
-                            
-                            
- 
-     </ul>
+      <ul class="links">
+        
+                
+        
+       
+        <li class="redes"> <a href="https://www.linkedin.com/in/maribel-congo-379727268 "><i class="fa-brands fa-linkedin"> </i>maribelcongo</a> </li>
+        <li class="redes"><a href="https://github.com/maribelcongo "><i class="fa-brands fa-github"></i>  Maribelcongo</a></li>
+        <li class="redes"> <a href="mailto:marigrau27@gmail.com"><i class="fa-solid fa-envelope"></i>encantada.bs@gmail.com</a></li>
+        
+        
+      </ul>           
+  
     </div> 
   </div>                      
                              
@@ -261,7 +272,7 @@
         
       <h2>escribeme</h2>
                                 
-    <form action="" method="post"></form>
+    <form method="post"></form>
                                          
   <div class="box-formulario">
         

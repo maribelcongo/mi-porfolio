@@ -1,13 +1,5 @@
 
-@media screen and (max-width: 500px) {
-  .navbar { 
-  display: none;
- 
-  }
 
-
-
-}
 
 *{
     box-sizing: border-box;
@@ -15,9 +7,9 @@
     padding: 0;
     }
     
-    html {
+    html body {
 
-      scroll-behavior: smooth;
+     overflow-x: hidden;
   }
 
     body{
@@ -50,12 +42,7 @@
     }
     
 
-    i{
-    
-     color: cornflowerblue;   
-
-    }
-
+   
 
      h2{
     
@@ -138,6 +125,36 @@
  
   
      } 
+
+     h1{
+    
+      margin-top: 0;
+      margin-bottom: 5px; 
+      color: #c40080;
+      font-size: 60px;
+      font-weight: 900;
+    }
+
+    
+    a{
+       font-size: 1.25em;
+      font-weight: 700;
+      text-decoration: none;
+      color: #141414;
+      list-style: none;
+    }
+    
+
+   
+
+     h2{
+
+       margin-bottom: 0.375em;
+       line-height: 1.2;
+       font-size: 45px;
+       font-weight: 900;
+    }
+    
     
   .hola{
 

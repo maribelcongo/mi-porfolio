@@ -1,4 +1,6 @@
 
+/* fuente de google fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script:wght@700&family=Varela+Round&display=swap');
 
 
 *{
@@ -7,10 +9,7 @@
     padding: 0;
     }
     
-    html body {
-
-     overflow-x: hidden;
-  }
+   /* inicio de estylos del body */
 
     body{
     
@@ -19,41 +18,8 @@
     font-family: Round;
     text-transform: capitalize;
    background-color: #90e0ef;
-     }
-    
-     h1{
-    
-      margin-top: 0;
-      margin-bottom: 5px; 
-      color: #c40080;
-      font-size: 60px;
-      font-weight: 900;
     }
-    
-    
-    
-    
-    a{
-       font-size: 1.25em;
-      font-weight: 700;
-      text-decoration: none;
-      color: #141414;
-      list-style: none;
-    }
-    
-
-   
-
-     h2{
-    
-    
-    
-       margin-bottom: 0.375em;
-       line-height: 1.2;
-       font-size: 45px;
-       font-weight: 900;
-    }
-    
+    /* fin de estylos del body */
     
     
     
@@ -71,7 +37,6 @@
     .navbar{
       background-image: linear-gradient(to bottom, #ff5487, #f14485, #e33283, #d41f82, #c40080);
       width: 100%;
-      
       font-weight: 700;
       font-size: 15px;
       margin: 0px;
@@ -97,7 +62,12 @@
     
      }
     
-
+     .menu a:hover{
+      color: #fff;
+    
+     
+  }
+  
     
      .boton-contacto{
     
@@ -182,16 +152,27 @@
     }
 
     button{
-      padding: 10px 20px;
-      background-color: rgb(112, 97, 248);
-      border: none;
-       margin-top: 30px;
-       cursor: pointer;
-      color: #0a0a0a;
-      text-transform: capitalize;
+    padding: 10px 20px;
+    background-color: rgb(112, 97, 248);
+     border: none; 
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    color: #0a0a0a;
+    font-weight: 700;
+  }
+/* hover para bototones */
+   button:hover{
+    color: #fff;
+          transform: scale(1.1);
+         
   }
 
-    
+
+/*  fin del hover para boton lo que hago */
+/* ---------------------------------------- */
+
+/* media para seccion presentacion */
     @media screen and (max-width: 600px) {
       #seccion-presentacion { 
       flex-direction:column;
@@ -199,21 +180,20 @@
       }
     
     }
-
-    /* fin de estilos de seccion precentacion */
+/* -------------media para seccion presentacion------ */
+    
+/* ----------------------------------------------------- */
+/* fin de estilos de seccion precentacion */
     
     /* ---------------------------------------------------- */
     
-    /* -------------estilos de seccion conocimientos */
+    /* -------inicio de estilos de seccion conocimientos */
     
     #seccion-conocimientos{
     
     width: 100%;
     
     }
-    
-    
-    
     
     .informacion{
 
@@ -233,23 +213,40 @@
     
     .cuadricula{
 
-      display: flex;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 10px;
+      margin: 40px; 
+      /* display: flex;
       justify-content: center;
       margin: 40px; 
       flex-wrap: wrap;
-      gap:2em
+      gap:2em */
   
   }
+
+  @media screen and (max-width: 700px) {
+    .cuadricula{ 
+        grid-template-columns: repeat(2,1fr);
+        justify-content: stretch;
+    }
+  
+}
+
 
   .item{
 
     color: #2e2e31;
-   
-    border : 1px solid ;
+    border : 1px solid #cad0dd;
     border-radius: 8px;
     padding: 30px;
     transition: 0.2s; 
   
+  }
+
+  .item:hover {
+    border: 1px solid rgba(242, 85, 177, 1);
+   border-radius: 8px;
   }
 
   .lenguaje{
@@ -265,7 +262,6 @@
     
       display: flex;
       justify-content: center;
-      /* padding: 110px 40px 130px; */
       text-align: center;
      
        
@@ -326,9 +322,8 @@
   .items{
 
     color: #2e2e31;
-    border : 1px solid ;
+    border : 1px solid #cad0dd;
     border-radius: 8px;
-    /* padding: 30px; */
     transition: 0.2s; 
   
   }
@@ -337,11 +332,14 @@
 
   width: 250px;
  
-
-
     }
-     
-    
+    /*hover para imagenes de proyectos  */
+    .items:hover {
+      border: 1px solid rgba(242, 85, 177, 1);
+     border-radius: 8px;
+    }
+    /* --------fin de hover proyectos */
+    /* ------------------------------------------ */
     /* fin de seccion proyectos */
     /* ------------------------------------------------------------ */
     
@@ -394,8 +392,35 @@
 
       text-decoration: none;
       list-style: none;
+     
    
      }
+/* hover para links */
+     .links a:hover{
+   
+      color:#f14485;
+      transform: scale(1.1);
+    
+      
+  }
+ /* fin de hover para links */
+
+
+  i{
+
+   
+    display: block;
+    border-radius: 50%;
+     padding: 5px 10px;
+    border-radius: 10px;
+}
+
+i:hover{
+  background-color: #f14485;
+  color: #90e0ef;
+  
+
+}
 
    .links li{
 
@@ -407,10 +432,11 @@
       display: flex;
      flex-direction: column;
  
-    
-    
+  
     }
     
+    
+
     textarea{
       border-radius: 20px;
       background-color: #dbe1f8;
@@ -428,7 +454,7 @@
     
     
     footer{
-     margin-bottom: 20px;
+  
       width: 100%;
       background-image: linear-gradient(to bottom, #ff5487, #f14485, #e33283, #d41f82, #c40080);
      
@@ -446,14 +472,22 @@
               
              
     }
+/*   hover barra foooter */
+    .barra-footer a:hover{
+      color: #fff;
+    
+     
+  }
+/* fin del hover barra footer */
 
+/* ------------media para barra footer ---------- */
     @media screen and (max-width: 600px) {
       .barra-footer { 
       display: none;
      
       }
     } 
-
+/* fin de media para footer */
 .box-footer{
 
     display: flex;
@@ -461,28 +495,27 @@
     list-style-type: none;
     text-decoration: none;
     justify-content: center;
-    /* padding: 15px; */
+ 
   
 
 }
 
 
     .tex-footer{
-     display: flex;
+      display: flex;
       justify-content: center;
       align-items: center;
+    
+
     }
     
     
-    /* .icono-footer:hover{
+     .box-footer li:hover{
       color: #fff;
       background: 200%;
-      transform:   scale(1.1);
-      background-color: rgb(22, 7, 153);
-      
-    
-    } */
-    
-    
+      transform:   scale(1.1);   
+  
+  }
+  
     
    

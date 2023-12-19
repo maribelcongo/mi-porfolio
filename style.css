@@ -142,12 +142,14 @@
       max-width: 500px;
       display: flex;
       flex-direction: column; 
+      gap: 20px;
     }
     
      .img-precentacion{
       width: 100%;
       max-width: 500px;
       display: block;
+   
      
     }
 
@@ -160,6 +162,7 @@
     cursor: pointer;
     color: #0a0a0a;
     font-weight: 700;
+   
   }
 /* hover para bototones */
    button:hover{
@@ -350,7 +353,9 @@
     @media screen and (max-width: 600px) {
       .contenedor-redes { 
       flex-direction:column;
-   
+     
+      justify-content:center;
+      align-content: center;
      
       }
     
@@ -358,21 +363,25 @@
 
      .contenedor-redes{
       
-      display: flex;
+     
+        display: flex;
        border-radius: 15px;
-      align-items: flex-start;
-      justify-content:center;
+      justify-content: center;
       margin: 15px;
+      align-content: center; 
   }
       
   .lista-redes{
-    max-width: 500px;
+     max-width: 500px; 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin: 15px;
+   
 
   
     }
+    
+   
     
     .iconos-redes{
     
@@ -413,9 +422,10 @@
 i:hover{
   background-color: #f14485;
   color: #90e0ef;
-  
+ 
 
 }
+
 
    .links li{
 
@@ -426,7 +436,7 @@ i:hover{
     
       display: flex;
      flex-direction: column;
- 
+ margin: 15px;
   
     }
     

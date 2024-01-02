@@ -1,6 +1,6 @@
 
 /* fuente de google fonts */
-  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script:wght@700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
 
 
 *{
@@ -15,9 +15,9 @@
     
     height: 100%;
     font-size: 1em;
-    font-family: Round;
+    font-family: Skranji ;
     text-transform: capitalize;
-   background-color: #90e0ef;
+   background-color:rgb(246, 250, 250);
     }
     /* fin de estylos del body */
     
@@ -92,7 +92,7 @@
    #seccion-presentacion{
     
       width: 100%;
- 
+      margin: 2em;
   
      } 
 
@@ -135,14 +135,15 @@
   
 }
     .presentacion{
-
+    align-items: flex-start;
      justify-content: center;
-     text-align: center;
+     /* text-align: center; */
       width: 100%;
       max-width: 500px;
       display: flex;
       flex-direction: column; 
       gap: 20px;
+   
     }
     
      .img-precentacion{
@@ -152,6 +153,19 @@
    
      
     }
+
+
+    .button-link{
+
+      padding: 10px 20px;
+      background-color: rgb(112, 97, 248);
+      cursor: pointer;
+      color: #0a0a0a;
+      border-radius: 10px;
+
+    } 
+
+    
 
     button{
     padding: 10px 20px;
@@ -165,7 +179,7 @@
    
   }
 /* hover para bototones */
-   button:hover{
+   button :hover{
     color: #fff;
           transform: scale(1.1);
          
@@ -179,7 +193,8 @@
     @media screen and (max-width: 600px) {
       #seccion-presentacion { 
       flex-direction:column;
-     
+      align-items: center;
+      text-align: center;
       }
     
     }
@@ -308,7 +323,7 @@
 
      
     .cuadricula-proyectos{
-
+     max-width: 1100px;
       display: flex;
       justify-content: center;
       margin: 40px; 
@@ -363,12 +378,13 @@
 
      .contenedor-redes{
       
-     
-        display: flex;
-       border-radius: 15px;
+       background-color: #fae3f1;
+      display: flex;
+      border-radius: 15px;
       justify-content: center;
       margin: 15px;
-      align-content: center; 
+      align-content: center;
+     
   }
       
   .lista-redes{
@@ -444,15 +460,32 @@ i:hover{
 
     textarea{
       border-radius: 20px;
-      background-color: #dbe1f8;
+      background-color: #f792eb;
       padding: 10px 15px;
       display: block;
       width: 100%;
       outline: none;
       transition: 0.2s;
-    
+      border: none;
     }
     
+
+/* ------------------inpust------------------ */
+
+input {
+  border: none;
+  font-size: 15px;
+   padding: 10px; 
+  width: 100%;
+  background-color: #f792eb;
+  color: #64696d;
+  border-radius: 10px;
+}
+
+
+
+/* ---------------------fin estilos inputs--------------- */
+
     /* ------------fin seccion contacto-------------------- */
     
     /* inicio footer */

@@ -139,18 +139,17 @@
      justify-content: center;
      /* text-align: center; */
       width: 100%;
-      max-width: 500px;
+       max-width: 500px; 
       display: flex;
       flex-direction: column; 
       gap: 20px;
    
     }
     
-     .img-precentacion{
-      width: 100%;
-      max-width: 500px;
-      display: block;
-   
+    .img-presentacion {
+        width: 100%;  
+       max-width: 500px;
+     
      
     }
 
@@ -210,10 +209,6 @@
     #seccion-conocimientos{
     
     width: 100%;
-    
-    }
-    
-    .informacion{
 
       height: auto;
       display: flex;
@@ -272,13 +267,10 @@
     
     #seccion-bloque{
      
-    
-      display: flex;
+    width: 100%;
+      /* display: flex; */
       justify-content: center;
       text-align: center;
-     
-       
-       /*estilo fondo de la seccion bloque*/
      background-image: linear-gradient(to bottom, #ff5487, #f14485, #e33283, #d41f82, #c40080);
     }
     
@@ -323,7 +315,7 @@
 
      
     .cuadricula-proyectos{
-     max-width: 1100px;
+     
       display: flex;
       justify-content: center;
       margin: 40px; 

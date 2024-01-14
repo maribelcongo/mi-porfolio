@@ -21,8 +21,22 @@
     }
     /* fin de estylos del body */
     
+    /* estilos para las secciones   */
+
+/* 
+    section{
+
+    margin: auto;
+    max-width: 1100px;
+    padding: 100px 20px;
+
+    } */
     
-    
+/* ------------fin de estilos de seccion------ */
+
+
+
+
     /* estilos de menu de navegacion */
      
    /* media barra de navegacion */
@@ -89,12 +103,47 @@
     
      /* estilos seccion precentacion */
     
-   #seccion-presentacion{
+     #seccion-presentacion{
     
-      width: 100%;
-      margin: 2em;
-  
+      margin: auto;
+    
+      max-width: 1100px; 
      } 
+
+
+     .hola{
+
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      padding-top: 30px;
+      width: 100%;
+      align-items: center;
+    }
+
+
+    .contenedor-presentacion{
+      align-items: flex-start;
+      justify-content: center;
+      max-width: 500px;  
+      display: flex;
+      flex-direction: column; 
+      gap: 20px;
+     
+      }
+
+
+     .img-presentacion {
+      width: 100%;  
+      max-width: 500px;
+   
+   
+  }
+
+
+
+
+
 
      h1{
     
@@ -126,32 +175,6 @@
     }
     
     
-  .hola{
-
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  padding-top: 30px;
-  
-}
-    .presentacion{
-    align-items: flex-start;
-     justify-content: center;
-     /* text-align: center; */
-      width: 100%;
-       max-width: 500px; 
-      display: flex;
-      flex-direction: column; 
-      gap: 20px;
-   
-    }
-    
-    .img-presentacion {
-        width: 100%;  
-       max-width: 500px;
-     
-     
-    }
 
 
     .button-link{

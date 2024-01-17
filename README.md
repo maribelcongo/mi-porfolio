@@ -10,7 +10,8 @@ a demas cuenta con una seccion con una frase y el pie de pagina
 # seccion presentacion
 
 
-![presentacion](https://github.com/maribelcongo/mi-porfolio/assets/123903736/8794ea41-5607-400f-b9a9-7be738490e7f)
+![presentacion](https://github.com/maribelcongo/m![imagen intro](https://github.com/maribelcongo/mi-porfolio/assets/123903736/f7d39f35-aee7-4a6e-824b-c80444c0eb64)
+i-porfolio/assets/123903736/8794ea41-5607-400f-b9a9-7be738490e7f)
 
 # seccion conocimientos
 ![conocimientos](https://github.com/maribelcongo/mi-porfolio/assets/123903736/9fb1092c-42d6-4b35-a7f7-3563f5298596)

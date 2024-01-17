@@ -378,6 +378,7 @@ h1{
       }
 
 
+
   
     /*hover para imagenes de proyectos  */
     .cuadro-proyectos:hover {
@@ -391,12 +392,6 @@ h1{
     
     /* inicio seccion redes y contacto */
     
-    #seccion-redes{
-    
-      width: 100%;
-      padding: 40px 40px 40px;
-    
-    }
     
     @media screen and (max-width: 600px) {
       .contenedor-redes { 

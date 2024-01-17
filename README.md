@@ -21,12 +21,12 @@ El proyecto fue realizado tomando con base en el siguiente proyecto: [ Modelo po
 
 # seccion presentacion
 
+![presentacion](https://github.com/maribelcongo/mi-porfolio/assets/123903736/fb336b12-a0a7-4255-94d4-562de110e39c)
 
-![imagen intro](https://github.com/maribelcongo/mi-porfolio/assets/123903736/99a9ddb6-2b61-4df9-8d29-b875ab66b8f4)
 
 
 # seccion conocimientos
-![seccion conocimientos](https://github.com/maribelcongo/mi-porfolio/assets/123903736/032b050c-d854-4471-9964-603b928200f4)
+![conocimientos](https://github.com/maribelcongo/mi-porfolio/assets/123903736/947c04ae-9441-4d51-81dd-989367b0ac76)
 
 # frase
 ![frase](https://github.com/maribelcongo/mi-porfolio/assets/123903736/5ce7264a-f940-4de6-b768-157fe8204d09)

@@ -97,13 +97,12 @@
      #seccion-presentacion {
       margin: auto;
     
-      padding: 110px 40px 40px;
+      padding: 60px 40px 40px;
   }
   .hola {
       display: flex;
       justify-content: center;
       text-align: center;
-      padding-top: 30px;
       width: 100%;
       align-items: center;
       margin: 20px;
@@ -223,12 +222,18 @@ h1{
     font-weight: 700;
    
   }
-/* hover para bototones */
-  button :hover{
+  /* hover para bototones  */
+   button :hover{
     color: #fff;
     transform: scale(1.1);
-         
-  }
+  
+   }
+  
+
+
+
+
+
 
 
 /*  fin del hover para boton lo que hago */
